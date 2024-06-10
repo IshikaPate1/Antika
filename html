@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#requests">Requests</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to Antika</h1>
+        <p>Happy Anniversary! This is our journey together.</p>
+    </section>
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <!-- Add your photos here -->
+            <div class="photo">
+                <img src="photos/photo1.jpg" alt="Copenhagen Trip">
+                <div class="description">Our first trip to Copenhagen!</div>
+            </div>
+            <div class="photo">
+                <img src="photos/photo2.jpg" alt="Berlin Trip">
+                <div class="description">Exploring Berlin together.</div>
+            </div>
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+    <section id="timeline">
+        <h2>Our Timeline</h2>
+        <div class="timeline">
+            <!-- Timeline events here -->
+            <div class="event" data-date="2023-10-13">
+                <h3>Anniversary</h3>
+                <p>Our special day!</p>
+            </div>
+            <div class="event" data-date="2023-05-01">
+                <h3>Trip to Copenhagen</h3>
+                <p>Our first trip together.</p>
+            </div>
+            <div class="event" data-date="2023-06-15">
+                <h3>Trip to Berlin</h3>
+                <p>Exploring the streets of Berlin.</p>
+            </div>
+            <div class="event" data-date="2023-07-20">
+                <h3>Trip to Vienna</h3>
+                <p>Enjoying the beauty of Vienna.</p>
+            </div>
+            <div class="event" data-date="2023-08-10">
+                <h3>His Trip to London</h3>
+                <p>Discovering London on his own.</p>
+            </div>
+            <div class="event" data-date="2023-09-05">
+                <h3>His Trip to San Antonio</h3>
+                <p>Exploring San Antonio.</p>
+            </div>
+            <div class="event" data-date="TBD">
+                <h3>His Trip to Mexico</h3>
+                <p>Excited for the future trip to Mexico.</p>
+            </div>
+        </div>
+    </section>
+    <section id="requests">
+        <h2>Requests</h2>
+        <form action="https://formspree.io/f/your_form_id" method="POST">
+            <label for="request">Request:</label>
+            <textarea id="request" name="request" required></textarea>
+            <br>
+            <button type="submit">Send Request</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Antika</p>
+    </footer>
+</body>
+</html>
